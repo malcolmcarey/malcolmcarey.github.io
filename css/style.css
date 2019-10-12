@@ -9,9 +9,22 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
     width: 960px;
     margin: auto;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav ul li {
+    float: 1;
 }
